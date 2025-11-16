@@ -1,0 +1,29 @@
+sequenceDiagram
+    participant User as Service Manager/Representative
+    participant Dashboard as Service 360 React Dashboard
+    participant SalesforceAPI as Salesforce API
+    participant Database as Salesforce Database
+
+    User->>Dashboard: Access Dashboard
+    Dashboard->>SalesforceAPI: Request User Permissions
+    SalesforceAPI-->>Dashboard: Validate Access Rights
+
+    Dashboard->>Database: Fetch Urgent Cases
+    Database-->>Dashboard: Return Urgent Cases Data
+    Dashboard->>Dashboard: Process and Visualize Urgent Cases
+
+    Dashboard->>Database: Retrieve Red Accounts
+    Database-->>Dashboard: Return Red Accounts Data
+    Dashboard->>Dashboard: Analyze Account Health Metrics
+
+    User->>Dashboard: Select Time Frame Filter
+    Dashboard->>Database: Query Cases for Selected Period
+    Database-->>Dashboard: Return Time-Filtered Cases
+    Dashboard->>Dashboard: Update Trend Visualizations
+
+    User->>Dashboard: Drill Down on Specific Case/Account
+    Dashboard->>SalesforceAPI: Request Detailed Record Information
+    SalesforceAPI->>Database: Fetch Specific Record Details
+    Database-->>SalesforceAPI: Return Record Data
+    SalesforceAPI-->>Dashboard: Provide Detailed Information
+    Dashboard->>User: Display Detailed View
