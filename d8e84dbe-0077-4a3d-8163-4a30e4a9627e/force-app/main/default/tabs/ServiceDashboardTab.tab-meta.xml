@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+            <label>Service 360 Dashboard</label>
+            <description>Tab providing access to the Service 360 Dashboard for urgent cases and red accounts monitoring</description>
+            
+            <flexiPage>ServiceDashboardPage</flexiPage>
+            
+            <motif>Custom9: Lightning</motif>
+        </CustomTab>
