@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+            <flexiPageRegions>
+                <itemInstances>
+                    <componentInstance>
+                        <identifier>serviceDashboard1</identifier>
+                        <componentName>serviceDashboard</componentName>
+                    </componentInstance>
+                </itemInstances>
+                <name>main</name>
+                <type>Region</type>
+            </flexiPageRegions>
+            <masterLabel>Service 360 Dashboard</masterLabel>
+            <description>Comprehensive dashboard for service managers and representatives to view urgent cases, red accounts, and service metrics with trend analysis</description>
+            <template>
+                <name>flexipage:defaultAppHomeTemplate</name>
+            </template>
+            <type>AppPage</type>
+        </FlexiPage>
