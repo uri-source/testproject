@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+            <apiVersion>60.0</apiVersion>
+            <description>Service 360 Dashboard LWC hosting React app with manual refresh button for urgent cases, red accounts, trends, and drill-down capabilities</description>
+            <isExposed>True</isExposed>
+            <masterLabel>Service 360 Dashboard</masterLabel>
+            <targets>
+                
+                <target>lightning__AppPage</target>
+                
+            </targets>
+        </LightningComponentBundle>
