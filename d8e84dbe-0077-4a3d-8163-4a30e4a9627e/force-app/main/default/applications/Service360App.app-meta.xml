@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+            <brand>
+                <headerColor>#0176D3</headerColor>
+                <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+            </brand>
+            <description>Service 360 application providing comprehensive dashboard for urgent cases, red accounts, and service analytics</description>
+            <formFactors>Large</formFactors>
+            <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+            <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+            <label>Service 360</label>
+            <navType>Standard</navType>
+            
+            <tabs>ServiceDashboardTab</tabs>
+            
+            <uiType>Lightning</uiType>
+        </CustomApplication>
